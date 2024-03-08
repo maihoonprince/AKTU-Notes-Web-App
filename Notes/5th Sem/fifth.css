@@ -79,13 +79,27 @@ header nav:hover > a:not(:hover) {
 }
 
 .notes{
-    /* background-color: blanchedalmond; */
-    /* display: flex;
+    /* background-color: blanchedalmond;  */
+    /* display: flex; */
+    padding-top: 10vw;
     justify-content: center;
-    align-items: center; */
+    align-items: center;
 }
 
 .notes .daa{
     width: 100vw;
     display: flex;
+}
+
+.notes button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: .5vw 1vw;
+    border-radius: 1.2vw;
+    border: 2px solid rgb(167, 167, 167);
+}
+
+.notes button:hover{
+    cursor: pointer;
 }

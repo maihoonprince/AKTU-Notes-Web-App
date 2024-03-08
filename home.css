@@ -149,6 +149,10 @@ header nav:hover > a:not(:hover) {
     padding-top: 1.5vw;
 }
 
+.year a{
+    text-decoration: none;
+}
+
 .year button{
     display: flex;
     align-items: center;
