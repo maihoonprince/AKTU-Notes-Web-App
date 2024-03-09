@@ -67,22 +67,55 @@ header nav:hover > a:not(:hover) {
 .notes{
     /* margin-top: 100px; */
     /* background-color: blanchedalmond;  */
-    /* display: flex; */
+    display: flex;
+    flex-direction: column;
     padding-top: 10vw;
     justify-content: center;
     align-items: center;
+    gap: 4vw;
 }
 
+.heading{
+    border-bottom: 2px solid black;
+}
 
-.notes button{
+.heading h1{
+    font-size: 3.5vw;
+    color: transparent;
+    -webkit-text-stroke: 1px #000;
+    letter-spacing: -.1vw;
+}
+
+.heading h1:hover{
+    color: #000;
+    -webkit-text-stroke: 1px #919191;
+}
+
+.subjects{
+    display: flex;
+    /* background-color: #cdcdcd; */
+    padding: 2vw 3vw;
+    gap: 4vw;
+
+}
+
+.subjects a{
+    text-decoration: none;
+}
+
+.subjects button{
     display: flex;
     align-items: center;
     justify-content: center;
     padding: .5vw 1vw;
     border-radius: 1.2vw;
     border: 2px solid rgb(167, 167, 167);
+    font-size: 1.5vw;
+    font-weight: 700;
 }
 
-.notes button:hover{
+.subjects button:hover{
     cursor: pointer;
+    background-color: #5247B9;
+    color: white;
 }
