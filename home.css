@@ -164,6 +164,8 @@ header nav:hover > a:not(:hover) {
 
 .year button:hover{
     cursor: pointer;
+    background-color: #5247B9;
+    color: white;
 }
 
 .paper h3{
