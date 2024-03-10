@@ -87,6 +87,7 @@ header nav:hover > a:not(:hover) {
 }
 
 .heading h1:hover{
+    cursor: pointer;
     color: #000;
     -webkit-text-stroke: 1px #919191;
 }
