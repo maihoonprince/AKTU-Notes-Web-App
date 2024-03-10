@@ -160,9 +160,37 @@ header nav:hover > a:not(:hover) {
     padding: .5vw 1vw;
     border-radius: 1.2vw;
     border: 2px solid rgb(167, 167, 167);
+    font-weight: 600;
+    font-size: 1vw;
 }
 
 .year button:hover{
+    cursor: pointer;
+    background-color: #5247B9;
+    color: white;
+}
+
+.firstYear{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1.5vw;
+
+}
+
+.firstYear a{
+    text-decoration: none;
+}
+
+.first_year{
+    border: 2px solid rgb(167, 167, 167);
+    font-size: 1.5vw;
+    padding: 0.5vw 1.5vw;
+    border-radius: 2vw;
+    font-weight: 700;
+}
+
+.first_year:hover{
     cursor: pointer;
     background-color: #5247B9;
     color: white;
