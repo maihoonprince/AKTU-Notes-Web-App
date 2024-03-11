@@ -196,6 +196,11 @@ header nav:hover > a:not(:hover) {
     color: white;
 }
 
+.yearWise{
+    display: flex;
+    gap: 2vw;
+}
+
 .paper h3{
     border-bottom: 2px solid #86A8DB;
     font-size: 3vw;
