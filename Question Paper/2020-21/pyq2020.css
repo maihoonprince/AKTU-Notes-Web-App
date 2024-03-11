@@ -11,6 +11,10 @@
 html, body{
     height: 100%;
     width: 100%;
+
+    background-color: #86A8DB;
+    width: 100%;
+    height: 100vh; 
 }
 
 .main{
@@ -59,9 +63,9 @@ header nav:hover > a:not(:hover) {
      /* notes page  */
 
 .notesPage{
-    background: linear-gradient(to top, #D2E2FB 30%, #86A8DB);
+    /* background: linear-gradient(to top, #D2E2FB 30%, #86A8DB); */
     width: 100%;
-    height: 100%;  
+    height: 100vh;  
 }
 
 .notes{
@@ -73,6 +77,8 @@ header nav:hover > a:not(:hover) {
     justify-content: center;
     align-items: center;
     gap: 4vw;
+
+    
 }
 
 .heading{
@@ -97,11 +103,11 @@ header nav:hover > a:not(:hover) {
     flex-direction: column;
     /* background-color: #cdcdcd; */
     padding: 2vw 3vw;
-    gap: 4vw;
+    gap: 4vw; 
 
 }
 
-.units{
+.firstYear{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -127,6 +133,7 @@ header nav:hover > a:not(:hover) {
     align-items: center;
     gap: 5vw;
 }
+
 
 .subjects a{
     text-decoration: none;
