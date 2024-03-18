@@ -3,6 +3,8 @@
 This project is a multi-page notes downloading website designed for B.Tech Computer Science & Engineering students of AKTU. 
 It allows students to easily download notes and previous year question papers for all subjects semester-wise with just one click.
 
+## Explore : https://maihoonprince.github.io/AKTU-Notes-Web-App/
+
 ## Features
 
 - Download notes and previous year question papers for B.Tech CSE subjects.
