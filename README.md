@@ -23,4 +23,4 @@ To get started with this project, follow these steps:
 1. Clone the repository:
 
 ```bash
-git clone <repository_url>
+git clone https://github.com/maihoonprince/AKTU-Notes-Web-App.git)https://github.com/maihoonprince/AKTU-Notes-Web-App.git
